@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+double edge;	//длина ребра куба
+std::cout << "Введите длину ребра куба"; 
+std::cin >> edge;
+double volume = edge * edge * edge; // вычисление объема
+std::cout << "объем куба: " << volume << std::endl;
+return 0;
+}
